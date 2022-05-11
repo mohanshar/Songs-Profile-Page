@@ -54,40 +54,39 @@ function playPause() {
     var fa = document.querySelector('.fa-pause')
     var z = document.getElementById("myAudio");
 
-    if (y.paused || w.innerHTML === 'Play Music' && y.paused || fa.classList.toggle('fa-play')) {
+    if (y.paused && [w.innerHTML === 'Play Music']) {
         y.play();
         w.innerHTML = 'Pause Music';
-        fa.classList.toggle('fa-pause');
         z.pause();
-    }
-    else if (w.innerHTML === 'Pause Music' || y.paused && w.innerHTML === 'Pause Music' || fa.classList.toggle('fa-play')) {
-        w.innerHTML = 'Play Music';
-        y.pause();
         fa.classList.toggle('fa-pause');
-        z.pause();
     }
 
     else {
-
+        y.pause();
+        w.innerHTML = 'Play Music';
+        fa.classList.toggle('fa-pause');
+        z.pause();
     }
 }
 
 function myFunction() {
 
     var fa = document.querySelector('.fa-play') // Using a class instead, see note below.
-    fa.classList.toggle('fa-pause');
 
     var z = document.getElementById("myAudio");
     var w = document.getElementById("pause");
     var y = document.getElementById("myAudio1");
 
-    if (z.paused || w.innerHTML === 'Pause Music') {
+    if (z.paused && [w.innerHTML === 'Pause Music']) {
         z.play();
         y.pause();
         w.innerHTML = 'Play Music';
+        fa.classList.toggle('fa-pause');
     }
     else {
         z.pause();
-        w.innerHTML = 'Pause Music';
+        y.pause();
+        w.innerHTML = 'Play Music';
+        fa.classList.toggle('fa-pause');
     }
 }
