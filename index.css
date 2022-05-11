@@ -133,7 +133,6 @@ footer button:nth-child(4) {
   color: #fff;
   padding: 8px 10px;
   border-radius: 10px 15px;
-  font-size: 12px;
 }
 
 .btn {
@@ -141,7 +140,6 @@ footer button:nth-child(4) {
   text-align: center;
   font-family: cursive;
   font-weight: bold;
-  font-size: 12px;
   border: none;
   outline: none;
   border-radius: 30px;
@@ -179,11 +177,9 @@ footer button:nth-child(4) {
   color: #fff;
   padding: 8px 10px;
   border-radius: 10px 15px;
-  font-size: 12px;
 }
 
 .fa {
-  font-size: 12px;
   cursor: pointer;
   user-select: none;
   color: #fff;
@@ -313,36 +309,6 @@ marquee {
   }
 }
 
-@media only screen and (min-width: 522px) {
-  .first-song {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
-
-  .sec-song {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
-
-  audio {
-    width: 50%;
-    display: block;
-    margin: 20px 10px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
-}
-
 /* @media only screen and (orientation: landscape) {
 } */
 
@@ -352,12 +318,14 @@ marquee {
     width: initial;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
   }
 
   .sec-song {
     width: initial;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
   }
 
   audio {
@@ -377,12 +345,14 @@ marquee {
     width: initial;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 15px;
   }
 
   .sec-song {
     width: initial;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 15px;
   }
 
   audio {
@@ -405,6 +375,7 @@ marquee {
     margin-right: auto;
     left: 0;
     right: 0;
+    font-size: 16px;
   }
 
   .sec-song {
@@ -414,6 +385,7 @@ marquee {
     margin-right: auto;
     left: 0;
     right: 0;
+    font-size: 16px;
   }
 
   audio {
