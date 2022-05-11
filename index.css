@@ -18,7 +18,7 @@ header h2 {
   text-align: center;
   padding: 15px 10px;
   border-radius: 0 0 30px 30px;
-  background-color: rgb(1, 1, 1);
+  background-color: rgba(228, 113, 113, 0.678);
   backdrop-filter: blur(20px);
   user-select: none;
   display: block;
