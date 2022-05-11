@@ -75,6 +75,8 @@ footer button {
   width: 25%;
   border-right: 0.5px solid #888;
   cursor: pointer;
+  -webkit-tap-highlight-color: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .active {
