@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Learning</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="index.js"></script>
+
+<body>
+
+    <div id="home">
+
+        <header>
+            <h2>Learning</h2>
+        </header>
+
+        <p>
+
+            &#128161;<kbd>Note:</kbd> Learning is an independent way of getting knowledge or idea from the whole living
+            or non-living beings of the Universe. Nowadays, Learning sources are free and can easily be available
+            through anywhere. Reader can read or learn anything from this universe. There is a lot of things to learn
+            from our surroundings.
+            <br>
+            <span>(: Mr. Mohan Prasad Sharma</span>
+
+        </p>
+
+    </div>
+
+    <div id="about" style="display:none;">
+
+        <header>
+            <h2>About</h2>
+        </header>
+
+        <p>
+
+            &#128161;<kbd>Note:</kbd> Learning is an independent way of getting knowledge or idea from the whole living
+            or non-living beings of the Universe. Nowadays, Learning sources are free and can easily be available
+            through anywhere. Reader can read or learn anything from this universe. There is a lot of things to learn
+            from our surroundings.
+            <br>
+            <span>(: Mr. Mohan Prasad Sharma</span>
+
+        </p>
+
+    </div>
+
+    <div id="info" style="display:none;">
+
+        <header>
+            <h2>Info</h2>
+        </header>
+
+        <p>
+
+            &#128161;<kbd>Note:</kbd> Learning is an independent way of getting knowledge or idea from the whole living
+            or non-living beings of the Universe. Nowadays, Learning sources are free and can easily be available
+            through anywhere. Reader can read or learn anything from this universe. There is a lot of things to learn
+            from our surroundings.
+            <br>
+            <span>(: Mr. Mohan Prasad Sharma</span>
+
+        </p>
+
+    </div>
+
+    <div id="song1" style="display:none;">
+
+        <header>
+            <h2>Songs</h2>
+        </header>
+
+        <audio id="myAudio1" title="Buhari Ko Khacho - Human Acharya song"
+            src="Buhari Ko Khacho - Human Acharya _ Official Music Video(MP3_70K).mp3">
+        </audio>
+        <audio id="myAudio" title="BLUENESS - LA LA LA LA (REMIX) FT. LIL BUDDHA VTEN"
+            src="BLUESSS - LA LA LA LA (REMIX) FT. LIL BUDDHA _ VTEN.mp3">
+        </audio>
+
+        <div class="first-song">
+            <span> Play Buhari Ko Khacho - Human Acharya Song </span>
+            <br><br>
+            <button onclick="playPause()" class="btn" id="pause" title="Play Buhari Ko Khacho - Human Acharya song">Play
+                Music</button>
+        </div>
+
+        <div class="sec-song">
+            <span> Play BLUENESS - LA LA LA LA (REMIX) Song </span>
+            <br><br>
+            <i onclick="myFunction()" class="fa fa-play" title="Play BLUENESS - LA LA LA LA (REMIX) FT. LIL BUDDHA VTEN"></i>
+            <!-- <p id="demo" style="color: #fff;"></p>
+            <script>
+
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+
+                var x = document.getElementById("demo");
+                x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+
+            </script> -->
+        </div>
+
+        <!-- <div class="ad">
+            <audio src="" controls id="audioPlayer">
+                Sorry, your browser does not support HTML5!
+            </audio>
+
+            <ul id="playlist">
+
+                <li class="current-song">
+                    <a href="Mr._D_-_Kaagaj_Ko_Note_(_कागजको_नोट_)____OFFICIAL_MUSIC_VIDEO.mp3">Mr. D - Kaagaj Ko Note (
+                        कागजको नोट )</a>
+                </li>
+
+                <li>
+                    <a href="CHINTU - CHUROT (ADHA RAAT MA) - HOSTEL PROMOTIONAL SONG(MP3_128K).mp3">CHINTU - CHUROT
+                        (ADHA RAAT MA) - HOSTEL PROMOTIONAL SONG</a>
+                </li>
+
+                <li>
+                    <a href="Bigreko Manche Ma Bhatkeko Ghara __ Damber Nepali __ Lok Pop Song 2016(MP3_128K).mp3">Bigreko
+                        Manche Ma Bhatkeko Ghara __ Damber Nepali __ Lok Pop Song</a>
+                </li>
+
+                <li>
+                    <a
+                        href="Galti Mero Chaina - Azay _ ETHOS ft. Sanjaya Chaudhary_ Bullet Flo (GXSOUL) (New Nepali Pop Song)(MP3_128K).mp3">Galti
+                        Mero Chaina - Azay _ ETHOS ft. Sanjaya Chaudhary_ Bullet Flo (GXSOUL)</a>
+                </li>
+
+                <li>
+                    <a
+                        href="DAMI DAMI ( दामी दामी ) __ BG X ABINASH __ OFFICIAL MUSIC VIDEO __ NEW NEPALI RAP SONG(MP3_128K).mp3">DAMI
+                        DAMI ( दामी दामी ) __ BG X ABINASH __ OFFICIAL MUSIC VIDEO __ NEW NEPALI RAP SONG</a>
+                </li>
+
+                <li>
+                    <a
+                        href="Baby I Love You - Maya Ko Barima Movie Song __ Yash Raj_ Keki Adhikari __ Nepali Movie Song.mp3">Baby
+                        I Love You - Maya Ko Barima Movie Song __ Yash Raj_ Keki Adhikari __ Nepali Movie Song</a>
+                </li>
+
+                <li>
+                    <a
+                        href="_Pushpa - The Rise (Hindi) - JaagoJaago Bakre _ AlluArjun_ Rashmika _ DSP _ VishalDadhlani _ Sukumar.mp3">_Pushpa
+                        - The Rise (Hindi) - JaagoJaago Bakre _ AlluArjun_ Rashmika _ DSP _ VishalDadhlani _ Sukumar</a>
+                </li>
+
+            </ul>
+
+            <marquee>
+                Enjoy the music!!
+            </marquee>
+
+        </div> -->
+
+    </div>
+
+    <footer>
+
+        <button class="active" id="hm">Home</button>
+        <button id="ab">About</button>
+        <button id="inf">Info</button>
+        <button id="song">Songs</button>
+
+    </footer>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
