@@ -74,9 +74,7 @@ footer button {
   float: left;
   width: 25%;
   border-right: 0.5px solid #888;
-  transition: 2s;
   cursor: pointer;
-  overflow: auto;
 }
 
 .active {
@@ -84,13 +82,13 @@ footer button {
   background-color: #666;
   border-bottom: 3px solid cornflowerblue;
   border-bottom-right-radius: 20px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 footer button:hover {
   font-weight: bold;
   background-color: #666;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 3px solid #ddd;
 }
 
 footer button:active {
@@ -313,7 +311,7 @@ marquee {
 
 @media only screen and (min-width: 522px) {
   .first-song {
-    width: 75%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -322,7 +320,7 @@ marquee {
   }
 
   .sec-song {
-    width: 75%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
