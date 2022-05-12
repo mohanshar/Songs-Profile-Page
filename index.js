@@ -103,19 +103,23 @@ function secondAudioFunction() {
 
     var fa = document.querySelector('.fa-play');
 
-    var z = document.getElementById("myAudio");
+    // var player = document.getElementById("audioPlayer");
+
     var w = document.getElementById("pause");
     var y = document.getElementById("myAudio1");
+    var z = document.getElementById("myAudio");
 
     if (z.paused && [w.innerHTML === 'Pause Music']) {
         z.play();
         y.pause();
+        // player.pause();
         w.innerHTML = 'Play Music';
         fa.classList.toggle('fa-pause');
     }
     else {
         z.pause();
         y.pause();
+        // player.pause();
         w.innerHTML = 'Play Music';
         fa.classList.toggle('fa-pause');
     }

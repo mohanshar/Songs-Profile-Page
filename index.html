@@ -93,7 +93,8 @@
         <div class="first-song">
             <span> Play Buhari Ko Khacho - Human Acharya Song </span>
             <br><br>
-            <button onclick="firstAudioFunction()" class="btn" id="pause" title="Play Buhari Ko Khacho - Human Acharya song">Play
+            <button onclick="firstAudioFunction()" class="btn" id="pause"
+                title="Play Buhari Ko Khacho - Human Acharya song">Play
                 Music</button>
         </div>
 
@@ -102,6 +103,54 @@
             <br><br>
             <i onclick="secondAudioFunction()" class="fa fa-play"
                 title="Play BLUENESS - LA LA LA LA (REMIX) FT. LIL BUDDHA VTEN"></i>
+        </div>
+
+        <div class="music-player">
+
+            <audio src="" controls id="audioPlayer">
+                Sorry, your browser does not support HTML5!
+            </audio>
+
+            <ul id="playlist">
+
+                <li class="current-song">
+                    <a href="Daddy Yankee Dura Song.mp3">
+                        Daddy Yankee Dura Song
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Gedai_Jasto_Jindagi(Non-Explicit)-Neetesh_Jung_Kunwar.mp3">
+                        Gedai Jasto Jindagi(Non-Explicit)- Neetesh Jung Kunwar Song
+                    </a>
+                </li>
+
+                <li>
+                    <a href="BTS (Dynamite).mp3">
+                        BTS - (Dynamite) Song
+                    </a>
+                </li>
+
+                <li>
+                    <a href="BTS_(Boy_With_Luv)_(feat._Halsey).mp3">
+                        BTS - (Boy With Luv) song
+                    </a>
+                </li>
+
+                <li>
+                    <a href="BTS_MIC_Drop_(Steve_Aoki_Remix.mp3">
+                        BTS - MIC Drop (Steve Aoki Remix Song
+                    </a>
+                </li>
+
+                <li>
+                    <a href="5_55_-_Budi Song.mp3">
+                        5:55 - Budi Song
+                    </a>
+                </li>
+
+            </ul>
+
         </div>
 
     </div>
@@ -115,9 +164,36 @@
 
     </footer>
 
-</body>
+    <script>
+        audioPlayer();
+        function audioPlayer() {
+            var currentSong = 0;
+            $("#audioPlayer")[0].src = $("#playlist li a")[0];
+            $("#playlist li a").click(function (e) {
+                e.preventDefault();
+                $("#audioPlayer")[0].src = this;
+                $("#audioPlayer")[0].play();
+                $("#playlist li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
 
-</html>
+            $("#audioPlayer")[0].addEventListener("ended", function () {
+                currentSong++;
+                if (currentSong == $("#playlist li a").length)
+                    currentSong = 0;
+                $("#playlist li").removeClass("current-song");
+                $("#playlist li:eq(" + currentSong + ")").addClass("current-song");
+                $("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
+                $("#audioPlayer")[0].play();
+            });
+
+
+        }
+    </script>
+    <!-- var w = document.getElementById("myAudio1");
+            var y = document.getElementById("myAudio");
+            var audioPlayer = document.getElementById("audioPlayer"); -->
 
 </body>
 
