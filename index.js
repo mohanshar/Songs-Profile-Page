@@ -46,6 +46,36 @@ $(document).ready(function () {
 
 });
 
+window.addEventListener('load', function () {
+
+    var y = document.getElementById("myAudio1");
+    var z = document.getElementById("myAudio");
+
+    y.onended = function () {
+
+        var w = document.getElementById("pause");
+
+        if (y.paused) {
+            w.innerHTML = 'Play Music';
+        }
+        else {
+            w.innerHTML = 'Pause Music';
+        }
+    }
+
+    z.onended = function () {
+
+        var fa = document.querySelector('.fa-play')
+
+        if (z.paused) {
+            fa.classList.toggle('fa-pause')
+        }
+        else {
+            fa.classList.toggle('fa-pause')
+        }
+    }
+});
+
 function playPause() {
 
     var w = document.getElementById("pause");
@@ -71,7 +101,7 @@ function playPause() {
 
 function myFunction() {
 
-    var fa = document.querySelector('.fa-play') // Using a class instead, see note below.
+    var fa = document.querySelector('.fa-play');
 
     var z = document.getElementById("myAudio");
     var w = document.getElementById("pause");
