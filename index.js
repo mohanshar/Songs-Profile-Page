@@ -76,7 +76,7 @@ window.addEventListener('load', function () {
     }
 });
 
-function playPause() {
+function firstAudioFunction() {
 
     var w = document.getElementById("pause");
     var y = document.getElementById("myAudio1");
@@ -99,7 +99,7 @@ function playPause() {
     }
 }
 
-function myFunction() {
+function secondAudioFunction() {
 
     var fa = document.querySelector('.fa-play');
 
