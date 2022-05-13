@@ -314,13 +314,17 @@ border-bottom-right-radius: 16px;
   }
 
   audio {
-    width: 50%;
+    width: 60%;
     display: block;
     margin: 20px 10px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
+  }
+
+  footer button { 
+    font-size: small;
   }
 }
 
@@ -351,6 +355,10 @@ border-bottom-right-radius: 16px;
     margin-right: auto;
     left: 0;
     right: 0;
+  }
+
+  footer button { 
+    font-size: small;
   }
 }
 
@@ -387,13 +395,17 @@ border-bottom-right-radius: 16px;
   }
 
   audio {
-    width: 50%;
+    width: initial;
     display: block;
     margin: 20px 10px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
+  }
+
+  footer button { 
+    font-size: medium;
   }
 }
 
@@ -444,6 +456,10 @@ border-bottom-right-radius: 16px;
     left: 0;
     right: 0;
   }
+
+  footer button { 
+    font-size: medium;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -475,6 +491,10 @@ border-bottom-right-radius: 16px;
     left: 0;
     right: 0;
   }
+
+  footer button { 
+    font-size: medium;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -505,5 +525,9 @@ border-bottom-right-radius: 16px;
     margin-right: auto;
     left: 0;
     right: 0;
+  }
+
+  footer button { 
+    font-size: medium;
   }
 }
