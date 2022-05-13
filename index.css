@@ -334,7 +334,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 600px) {
   .first-song {
-    width: 80%;
+    width: initial;
     font-size: 12px;
     margin-left: auto;
     margin-right: auto;
@@ -343,7 +343,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
   }
 
   .sec-song {
-    width: 80%;
+    width: initial;
     font-size: 12px;
     margin-left: auto;
     margin-right: auto;
