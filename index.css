@@ -276,7 +276,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 }
 
 #playlist li a {
-  color: rgb(161, 227, 243);
+  color: rgb(64, 210, 247);
   background: none;
   font-size: smaller;
   text-decoration: none;
@@ -296,6 +296,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 #playlist .current-song a {
   font-size: medium;
   color: rgb(1, 243, 252);
+  margin-left: 15px;
 }
 
 @media only screen and (orientation: portrait) {
