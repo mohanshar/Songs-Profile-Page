@@ -31,7 +31,7 @@ header h2 {
 
 p {
   margin: 65px 5px;
-  background-color: cornflowerblue;
+  background-color: rgb(115, 153, 223);
   color: purple;
   text-align: center;
   padding: 25px;
@@ -115,7 +115,7 @@ footer button:nth-child(1) {
 
 .first-song {
   margin-top: 65px;
-  background-color: rgb(138, 88, 52);
+  background-color: rgb(27, 97, 93);
   padding: 20px 15px;
   border-radius: 30px 30px 10px 10px;
   margin-bottom: 10px;
@@ -138,13 +138,14 @@ footer button:nth-child(1) {
 .btn {
   padding: 10px 15px;
   text-align: center;
-  font-family: cursive;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   border: none;
   outline: none;
   border-radius: 30px;
   cursor: pointer;
-  background-color: rgb(240, 102, 102);
+  background-color: rgba(105, 103, 212, 0.726);
   color: #fff;
   user-select: none;
   -webkit-tap-highlight-color: none;
@@ -156,7 +157,7 @@ footer button:nth-child(1) {
 }
 
 .sec-song {
-  background-color: rgba(255, 116, 16, 0.336);
+  background-color: rgba(189, 14, 180, 0.486);
   padding: 20px 15px;
   border-radius: 10px 10px 30px 30px;
   margin-top: 10px;
@@ -169,7 +170,7 @@ footer button:nth-child(1) {
 }
 
 .sec-song span {
-  background-color: rgba(0, 0, 0, 0.411);
+  background-color: rgba(49, 202, 156, 0.637);
   color: #fff;
   padding: 10px 12px;
   line-height: 35px;
@@ -179,13 +180,13 @@ footer button:nth-child(1) {
 .fa {
   cursor: pointer;
   user-select: none;
-  color: rgb(229, 247, 127);
-  padding: 12px 25px;
+  color: rgb(255, 255, 255);
+  padding: 15px 28px;
   margin: 8px;
   text-align: center;
-  background-color: rgba(6, 101, 245, 0.514);
-  border-radius: 9px;
-  border: 0.5px solid rgb(221, 117, 139);
+  background-color: rgb(245, 6, 6);
+  border-radius: 10px;
+  /* border: 0.5px solid rgb(221, 117, 139); */
   -webkit-tap-highlight-color: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -200,13 +201,13 @@ audio {
   display: block;
 }
 
-audio::-webkit-media-controls-play-button {
+/* audio::-webkit-media-controls-play-button {
   color: #fff;
   border-radius: 50%;
-  background-color: rgba(168, 168, 250, 0.719);
-}
+  background-color: rgba(113, 113, 247, 0.932);
+} */
 
-audio::-webkit-media-controls-timeline-container {
+/* audio::-webkit-media-controls-timeline-container {
   background-color: #fff;
 }
 
@@ -217,13 +218,13 @@ audio::-webkit-media-controls-mute-button {
 
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
-  background-color: rgba(255, 0, 0, 0.726);
-  color: #fff;
+  background-color: rgba(248, 244, 247, 0.856);
+  color: rgb(252, 10, 10);
   padding: 5px;
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: rgba(10, 10, 10, 0.418);
+  background-color: rgba(36, 40, 87, 0.685);
 }
 
 audio::-webkit-media-controls-timeline {
@@ -240,7 +241,7 @@ audio::-webkit-media-controls-seek-back-button,
 audio::-webkit-media-controls-seek-forward-button {
   background-color: #fff;
   color: #fff;
-}
+} */
 
 /* 
 audio::-webkit-media-controls-fullscreen-button,
