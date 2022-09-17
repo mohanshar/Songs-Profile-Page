@@ -31,27 +31,29 @@ header h2 {
 
 p {
   margin: 65px 5px;
-  background-color: rgb(115, 153, 223);
-  color: purple;
+  background-color: rgb(70, 104, 167);
+  color: rgb(250, 154, 250);
   text-align: center;
   padding: 25px;
   border-radius: 30px 30px 10px 10px;
   justify-content: center;
+  font-weight: bold;
 }
 
 p span {
   float: right;
-  background-color: cornflowerblue;
-  padding: 10px;
+  background-color: rgb(70, 104, 167);
+  padding: 12px 25px;
   border-radius: 0 0 20px 20px;
-  font-weight: bold;
+  border-bottom: 2px solid darkblue;
+  color: #ffffff;
 }
 
 p kbd {
-  background-color: cornflowerblue;
-  color: yellow;
+  background: none;
+  color: rgb(245, 245, 84);
   font-weight: bold;
-  text-decoration: underline darkseagreen 1.5px;
+  text-decoration: underline rgb(206, 240, 206) 1.5px;
 }
 
 footer {
