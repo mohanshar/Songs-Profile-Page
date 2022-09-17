@@ -109,7 +109,7 @@ footer button:nth-child(1) {
   border-top-left-radius: 15px;
 }
 
-footer button:nth-child(4) {
+footer button:nth-child(1) {
   border-top-right-radius: 15px;
 }
 
@@ -179,13 +179,13 @@ footer button:nth-child(4) {
 .fa {
   cursor: pointer;
   user-select: none;
-  color: #fff;
+  color: rgb(229, 247, 127);
   padding: 12px 25px;
   margin: 8px;
   text-align: center;
-  background-color: rgba(71, 119, 190, 0.514);
+  background-color: rgba(6, 101, 245, 0.514);
   border-radius: 9px;
-  border: 0.5px solid rgb(13, 199, 206);
+  border: 0.5px solid rgb(221, 117, 139);
   -webkit-tap-highlight-color: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -250,7 +250,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 
 .music-player #playlist {
   padding: 12px 10px;
-  margin-bottom: 65px;
+  margin-bottom: 100px;
   margin-left: 8px;
   /* margin-left: auto;
   margin-right: auto;
@@ -259,10 +259,11 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 }
 
 .music-player #playlist li {
-  background-color: rgba(0, 139, 139, 0.534);
-  padding: 10px 12px;
+  background-color: rgba(17, 63, 63, 0.534);
+  /* padding: 8px 5px; */
   display: block;
   list-style-type: none;
+  padding: 3px;
 }
 
 .music-player #playlist li:nth-child(1) {
@@ -270,19 +271,19 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
   border-top-right-radius: 12px;
 }
 
-.music-player #playlist li:nth-child(6) {
+.music-player #playlist li:nth-child(7) {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
 }
 
 #playlist li a {
-  color: rgb(64, 210, 247);
+  color: rgb(13, 144, 177);
   background: none;
   font-size: smaller;
   text-decoration: none;
-  /* padding: 5px; */
-  /* line-height: 30px; */
-  /* width: 100%; */
+  padding: 8px 5px;
+  margin: 0;
+  width: fit-content;
   display: block;
   user-select: none;
   -webkit-tap-highlight-color: none;
@@ -290,13 +291,28 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 }
 
 .music-player #playlist li a:hover {
-  text-decoration: 1px solid rgb(243, 238, 238);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 8px 5px;
 }
 
 #playlist .current-song a {
   font-size: medium;
-  color: rgb(1, 243, 252);
+  color: rgb(147, 218, 241);
   margin-left: 15px;
+  border-bottom: 2px solid rgba(202, 31, 31, 0.918);
+  border-radius: 20px 0;
+  padding: 8px 5px;
+  width: fit-content;
+}
+
+div.copyright {
+  margin-top: 5px;
+  background-color: rgba(243, 50, 50, 0.11);
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-size: small;
 }
 
 @media only screen and (orientation: portrait) {
