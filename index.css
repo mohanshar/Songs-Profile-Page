@@ -117,7 +117,7 @@ footer button:nth-child(1) {
 
 .first-song {
   margin-top: 65px;
-  background-color: rgb(27, 97, 93);
+  background-color: rgba(37, 134, 130, 0.74);
   padding: 20px 15px;
   border-radius: 30px 30px 10px 10px;
   margin-bottom: 10px;
@@ -127,6 +127,15 @@ footer button:nth-child(1) {
   margin-right: auto;
   left: 0;
   right: 0;
+}
+
+.first-song span {
+  background-color: rgba(69, 129, 29, 0.171);
+  color: #fff;
+  padding: 10px 12px;
+  line-height: 35px;
+  border-radius: 10px 15px;
+  border:rgba(4, 226, 159, 0.829) 2px solid;
 }
 
 .btn {
@@ -146,12 +155,19 @@ footer button:nth-child(1) {
   -webkit-tap-highlight-color: transparent;
 }
 
+.btn:hover {
+  background-color: rgba(132, 130, 247, 0.726);
+  color: #fff;
+  border-left: 3px solid rgb(238, 197, 217);
+  border-right: 3px solid rgb(238, 197, 217);
+}
+
 .btn:active {
   background-color: rgba(204, 114, 114, 0.658);
 }
 
 .sec-song {
-  background-color: rgba(189, 14, 180, 0.486);
+  background-color: rgba(172, 99, 168, 0.486);
   padding: 20px 15px;
   border-radius: 10px 10px 30px 30px;
   margin-top: 10px;
@@ -164,25 +180,34 @@ footer button:nth-child(1) {
 }
 
 .sec-song span {
-  background-color: rgba(49, 202, 156, 0.637);
+  background-color: rgba(49, 202, 156, 0.356);
   color: #fff;
   padding: 10px 12px;
   line-height: 35px;
   border-radius: 10px 15px;
+  border:rgba(226, 157, 29, 0.829) 2px solid;
 }
 
 .fa {
+  margin-top: 50px;
   cursor: pointer;
   user-select: none;
-  color: rgb(255, 255, 255);
+  color: rgb(247, 217, 217);
   padding: 15px 28px;
   margin: 8px;
   text-align: center;
-  background-color: rgb(245, 6, 6);
+  background-color: rgba(0, 153, 255, 0.911);
   border-radius: 10px;
-  /* border: 0.5px solid rgb(221, 117, 139); */
   -webkit-tap-highlight-color: none;
   -webkit-tap-highlight-color: transparent;
+}
+
+.fa:hover {
+  background-color: rgba(132, 130, 247, 0.726);
+  color: #fff;
+  border-left: 3px solid rgb(238, 197, 217);
+  border-right: 3px solid rgb(238, 197, 217);
+
 }
 
 .fa:active {
@@ -337,20 +362,11 @@ div.about-text img {
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
+    /* display: none; */
   }
 
-  #select {
-    width: initial;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-    background-color: rgba(86, 148, 199, 0.877);
-    color: aliceblue;
-    padding: 10px 12px;
-    line-height: 35px;
-    border-radius: 10px 15px;
-    height: 35px;
-    border: none;
+  .music-player #playlist {
+    margin-left: 0;
   }
 
   audio {
@@ -389,6 +405,7 @@ div.about-text img {
     margin-right: auto;
     left: 0;
     right: 0;
+    /* display: none; */
   }
 
   audio {
@@ -445,6 +462,7 @@ div.about-text img {
     margin-right: auto;
     left: 0;
     right: 0;
+    /* display: none; */
   }
 
   p {
@@ -515,6 +533,7 @@ div.about-text img {
     left: 0;
     right: 0;
     font-size: 16px;
+    /* display: none; */
   }
 
   p {
