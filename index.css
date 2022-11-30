@@ -29,24 +29,44 @@ header h2 {
   position: fixed;
 }
 
+header h2:hover {
+  text-decoration: 5px underline gold;
+}
+
 p {
   margin: 65px 5px;
   background-color: rgb(38, 67, 121);
   color: rgb(250, 154, 250);
   text-align: center;
   padding: 25px;
+  border: 2px solid rgb(248, 90, 248);
   border-radius: 30px 30px 10px 10px;
   justify-content: center;
   font-weight: bold;
 }
 
+p:hover {
+  background-color: rgba(38, 67, 121, 0.705);
+  color: rgb(250, 137, 250);
+  text-align: center;
+  padding: 25px;
+  border-radius: 30px 30px 10px 10px;
+  align-items: center;
+}
+
 p span {
   float: right;
-  background-color: rgb(38, 67, 121);
-  padding: 12px 25px;
+  /* background-color: rgb(38, 67, 121); */
+  background: none;
+  margin-top: -5px;
+  padding: 4px 25px;
   border-radius: 0 0 20px 20px;
-  border-bottom: 2px solid rgb(151, 151, 165);
+  border-bottom: 2px solid rgb(222, 100, 247);
   color: #f56868;
+}
+
+p span:hover {
+border-bottom: 2px solid rgb(191, 104, 241);
 }
 
 p kbd {
@@ -117,8 +137,9 @@ footer button:nth-child(1) {
 
 .first-song {
   margin-top: 65px;
-  background-color: rgba(37, 134, 130, 0.74);
+  background-color: rgba(44, 97, 95, 0.741);
   padding: 20px 15px;
+  border: 2px solid #24faf3bd;
   border-radius: 30px 30px 10px 10px;
   margin-bottom: 10px;
   display: block;
@@ -127,6 +148,10 @@ footer button:nth-child(1) {
   margin-right: auto;
   left: 0;
   right: 0;
+}
+
+.first-song:hover {
+  background-color: #258682bd;
 }
 
 .first-song span {
@@ -167,8 +192,9 @@ footer button:nth-child(1) {
 }
 
 .sec-song {
-  background-color: rgba(172, 99, 168, 0.486);
+  background-color: rgba(95, 56, 93, 0.486);
   padding: 20px 15px;
+  border: 2px solid rgba(245, 32, 234, 0.486);
   border-radius: 10px 10px 30px 30px;
   margin-top: 10px;
   display: block;
@@ -177,6 +203,10 @@ footer button:nth-child(1) {
   margin-right: auto;
   left: 0;
   right: 0;
+}
+
+.sec-song:hover {
+  background-color: rgba(172, 99, 168, 0.486);
 }
 
 .sec-song span {
@@ -196,22 +226,22 @@ footer button:nth-child(1) {
   padding: 15px 28px;
   margin: 8px;
   text-align: center;
-  background-color: rgba(0, 153, 255, 0.911);
+  background-color: rgba(240, 15, 15, 0.911);
   border-radius: 10px;
   -webkit-tap-highlight-color: none;
   -webkit-tap-highlight-color: transparent;
 }
 
 .fa:hover {
-  background-color: rgba(132, 130, 247, 0.726);
+  background-color: rgba(219, 92, 92, 0.911);
   color: #fff;
-  border-left: 3px solid rgb(238, 197, 217);
-  border-right: 3px solid rgb(238, 197, 217);
+  /* border-left: 3px solid rgb(238, 197, 217);
+  border-right: 3px solid rgb(238, 197, 217); */
 
 }
 
 .fa:active {
-  background-color: rgba(122, 151, 247, 0.205);
+  background-color: rgba(167, 29, 29, 0.911);
 }
 
 audio {
@@ -277,10 +307,10 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 .music-player #playlist li {
   /* background-color: rgba(17, 63, 63, 0.534); */
   background: linear-gradient(
-    120deg,
-    rgba(53, 77, 128, 0.664) 0%,
-    rgba(26, 61, 71, 0.63) 50%,
-    rgba(10, 71, 71, 0.534) 100%
+    60deg,
+    rgba(17, 52, 128, 0.664) 0%,
+    rgba(0, 80, 252, 0.664) 50%,
+    rgba(21, 67, 167, 0.664) 100%
   );
   /* padding: 8px 5px; */
   display: block;
@@ -299,7 +329,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 }
 
 #playlist li a {
-  color: rgb(122, 153, 253);
+  color: rgb(184, 193, 223);
   background: none;
   font-size: smaller;
   text-decoration: none;
@@ -314,6 +344,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 
 .music-player #playlist li a:hover {
   background-color: rgba(0, 0, 0, 0.459);
+  color: rgb(132, 130, 177);
   -webkit-tap-highlight-color: none;
   -webkit-tap-highlight-color: transparent;
   border-radius: 10px;
@@ -324,7 +355,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
   font-size: medium;
   color: rgb(147, 218, 241);
   margin-left: 15px;
-  border-bottom: 2px solid rgba(202, 31, 31, 0.918);
+  border-bottom: 2px solid rgba(107, 115, 192, 0.918);
   /* border-radius: 20px 0; */
   padding: 8px 5px;
   width: fit-content;
@@ -332,7 +363,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 
 div.copyright {
   margin-top: 5px;
-  background-color: rgba(243, 50, 50, 0.11);
+  background-color: rgba(187, 45, 45, 0.568);
   padding: 10px 0;
   text-align: center;
   color: #fff;
@@ -346,7 +377,7 @@ div.about-text img {
   height: 105px;
   border-radius: 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  border: 2px dashed rgb(146, 166, 255);
+  border: 2px dashed rgb(28, 61, 212);
   margin: 5px;
   display: block;
   margin-left: auto;
@@ -652,11 +683,9 @@ div.about-text img {
   }
 
   audio {
-    background-color: rgba(17, 63, 63, 0.534);
-    width: auto;
+    width: 30%;
     display: block;
     margin: 10px;
-    padding: 12px 10px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
