@@ -392,6 +392,11 @@ div.about-text img {
     text-align: center;
   }
 
+  .first-song:hover {
+    background-color: #258682bd;
+  }
+  
+
   .sec-song {
     width: initial;
     margin-left: 10px;
@@ -432,6 +437,11 @@ div.about-text img {
     left: 0;
     right: 0;
   }
+
+  .first-song:hover {
+    background-color: #258682bd;
+  }
+  
 
   .sec-song {
     width: initial;
@@ -487,6 +497,11 @@ div.about-text img {
     left: 0;
     right: 0;
   }
+
+  .first-song:hover {
+    background-color: #258682bd;
+  }
+  
 
   .sec-song {
     width: 75%;
@@ -560,6 +575,11 @@ div.about-text img {
     font-size: 16px;
   }
 
+  .first-song:hover {
+    background-color: #258682bd;
+  }
+  
+
   .sec-song {
     width: 60%;
     display: block;
@@ -630,6 +650,11 @@ div.about-text img {
     display: block;
   }
 
+  .first-song:hover {
+    background-color: #258682bd;
+  }
+  
+
   .sec-song {
     width: 45%;
     display: block;
@@ -664,6 +689,11 @@ div.about-text img {
     right: 0;
     display: block;
   }
+
+  .first-song:hover {
+    background-color: #258682bd;
+  }
+  
 
   .sec-song {
     width: 40%;
