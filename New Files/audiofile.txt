@@ -1,0 +1,49 @@
+
+
+/* audio::-webkit-media-controls-play-button {
+  color: #fff;
+  border-radius: 50%;
+  background-color: rgba(113, 113, 247, 0.932);
+} */
+
+/* audio::-webkit-media-controls-timeline-container {
+  background-color: #fff;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: rgba(168, 168, 250, 0.719);
+  border-radius: 20px;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  background-color: rgba(248, 244, 247, 0.856);
+  color: rgb(252, 10, 10);
+  padding: 5px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgba(36, 40, 87, 0.685);
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: rgba(35, 126, 179, 0.63);
+  border-radius: 20px;
+}
+
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider {
+  background-color: rgb(199, 155, 189);
+}
+
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-seek-forward-button {
+  background-color: #fff;
+  color: #fff;
+} */
+
+/* 
+audio::-webkit-media-controls-fullscreen-button,
+audio::-webkit-media-controls-rewind-button,
+audio::-webkit-media-controls-return-to-realtime-button,
+audio::-webkit-media-controls-toggle-closed-captions-button,  */

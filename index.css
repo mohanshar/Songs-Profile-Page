@@ -66,7 +66,7 @@ p span {
 }
 
 p span:hover {
-border-bottom: 2px solid rgb(191, 104, 241);
+  border-bottom: 2px solid rgb(191, 104, 241);
 }
 
 p kbd {
@@ -150,17 +150,13 @@ footer button:nth-child(1) {
   right: 0;
 }
 
-.first-song:hover {
-  background-color: #258682bd;
-}
-
 .first-song span {
   background-color: rgba(69, 129, 29, 0.171);
   color: #fff;
   padding: 10px 12px;
   line-height: 35px;
   border-radius: 10px 15px;
-  border:rgba(4, 226, 159, 0.829) 2px solid;
+  border: rgba(4, 226, 159, 0.829) 2px solid;
 }
 
 .btn {
@@ -205,17 +201,13 @@ footer button:nth-child(1) {
   right: 0;
 }
 
-.sec-song:hover {
-  background-color: rgba(172, 99, 168, 0.486);
-}
-
 .sec-song span {
   background-color: rgba(49, 202, 156, 0.356);
   color: #fff;
   padding: 10px 12px;
   line-height: 35px;
   border-radius: 10px 15px;
-  border:rgba(226, 157, 29, 0.829) 2px solid;
+  border: rgba(226, 157, 29, 0.829) 2px solid;
 }
 
 .fa {
@@ -237,7 +229,6 @@ footer button:nth-child(1) {
   color: #fff;
   /* border-left: 3px solid rgb(238, 197, 217);
   border-right: 3px solid rgb(238, 197, 217); */
-
 }
 
 .fa:active {
@@ -250,58 +241,12 @@ audio {
   display: block;
 }
 
-/* audio::-webkit-media-controls-play-button {
-  color: #fff;
-  border-radius: 50%;
-  background-color: rgba(113, 113, 247, 0.932);
-} */
-
-/* audio::-webkit-media-controls-timeline-container {
-  background-color: #fff;
-}
-
-audio::-webkit-media-controls-mute-button {
-  background-color: rgba(168, 168, 250, 0.719);
-  border-radius: 20px;
-}
-
-audio::-webkit-media-controls-current-time-display,
-audio::-webkit-media-controls-time-remaining-display {
-  background-color: rgba(248, 244, 247, 0.856);
-  color: rgb(252, 10, 10);
-  padding: 5px;
-}
-
-audio::-webkit-media-controls-panel {
-  background-color: rgba(36, 40, 87, 0.685);
-}
-
-audio::-webkit-media-controls-timeline {
-  background-color: rgba(35, 126, 179, 0.63);
-  border-radius: 20px;
-}
-
-audio::-webkit-media-controls-volume-slider-container,
-audio::-webkit-media-controls-volume-slider {
-  background-color: rgb(199, 155, 189);
-}
-
-audio::-webkit-media-controls-seek-back-button,
-audio::-webkit-media-controls-seek-forward-button {
-  background-color: #fff;
-  color: #fff;
-} */
-
-/* 
-audio::-webkit-media-controls-fullscreen-button,
-audio::-webkit-media-controls-rewind-button,
-audio::-webkit-media-controls-return-to-realtime-button,
-audio::-webkit-media-controls-toggle-closed-captions-button,  */
-
 .music-player #playlist {
   padding: 12px 10px;
   /* margin-left: 8px; */
   margin-top: 70px;
+  overflow-y: scroll;
+  height: 250px;
 }
 
 .music-player #playlist li {
@@ -323,13 +268,13 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
   border-top-right-radius: 12px;
 }
 
-.music-player #playlist li:nth-child(7) {
+.music-player #playlist li:nth-child(9) {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
 }
 
 #playlist li a {
-  color: rgb(184, 193, 223);
+  color: rgb(151, 168, 224);
   background: none;
   font-size: smaller;
   text-decoration: none;
@@ -344,7 +289,7 @@ audio::-webkit-media-controls-toggle-closed-captions-button,  */
 
 .music-player #playlist li a:hover {
   background-color: rgba(0, 0, 0, 0.459);
-  color: rgb(132, 130, 177);
+  color: rgb(229, 229, 240);
   -webkit-tap-highlight-color: none;
   -webkit-tap-highlight-color: transparent;
   border-radius: 10px;
@@ -392,11 +337,6 @@ div.about-text img {
     text-align: center;
   }
 
-  .first-song:hover {
-    background-color: #258682bd;
-  }
-  
-
   .sec-song {
     width: initial;
     margin-left: 10px;
@@ -437,11 +377,6 @@ div.about-text img {
     left: 0;
     right: 0;
   }
-
-  .first-song:hover {
-    background-color: #258682bd;
-  }
-  
 
   .sec-song {
     width: initial;
@@ -497,11 +432,6 @@ div.about-text img {
     left: 0;
     right: 0;
   }
-
-  .first-song:hover {
-    background-color: #258682bd;
-  }
-  
 
   .sec-song {
     width: 75%;
@@ -575,11 +505,6 @@ div.about-text img {
     font-size: 16px;
   }
 
-  .first-song:hover {
-    background-color: #258682bd;
-  }
-  
-
   .sec-song {
     width: 60%;
     display: block;
@@ -650,11 +575,6 @@ div.about-text img {
     display: block;
   }
 
-  .first-song:hover {
-    background-color: #258682bd;
-  }
-  
-
   .sec-song {
     width: 45%;
     display: block;
@@ -689,11 +609,6 @@ div.about-text img {
     right: 0;
     display: block;
   }
-
-  .first-song:hover {
-    background-color: #258682bd;
-  }
-  
 
   .sec-song {
     width: 40%;
