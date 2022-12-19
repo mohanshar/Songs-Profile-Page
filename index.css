@@ -5,7 +5,6 @@
   background-color: #222;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    overflow: scroll;
 }
 
 ::selection {
@@ -19,7 +18,7 @@ header h2 {
   text-align: center;
   padding: 15px 10px;
   border-radius: 0 0 30px 30px;
-  background-color: rgba(228, 113, 113, 0.678);
+  background-color: rgba(94, 123, 250, 0.678);
   backdrop-filter: blur(20px);
   user-select: none;
   display: block;
@@ -255,9 +254,9 @@ audio {
   /* background-color: rgba(17, 63, 63, 0.534); */
   background: linear-gradient(
     60deg,
-    rgba(17, 52, 128, 0.664) 0%,
-    rgba(0, 80, 252, 0.664) 50%,
-    rgba(21, 67, 167, 0.664) 100%
+    rgba(5, 15, 37, 0.664) 0%,
+    rgba(11, 21, 43, 0.664) 50%,
+    rgba(7, 15, 34, 0.664) 100%
   );
   /* padding: 8px 5px; */
   display: block;
@@ -270,7 +269,7 @@ audio {
   border-top-right-radius: 12px;
 }
 
-.music-player #playlist li:nth-child(9) {
+.music-player #playlist li:nth-child(6) {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
 }
@@ -302,7 +301,7 @@ audio {
   font-size: medium;
   color: rgb(147, 218, 241);
   margin-left: 15px;
-  border-bottom: 2px solid rgba(107, 115, 192, 0.918);
+  border-bottom: 2px solid rgba(115, 125, 211, 0.856);
   /* border-radius: 20px 0; */
   padding: 8px 5px;
   width: fit-content;
